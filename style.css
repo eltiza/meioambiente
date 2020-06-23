@@ -1,0 +1,110 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #98FB98;
+}
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 200px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 10px;
+     }
+
+/* FONTE DO LOGOTIPO */
+h1{
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif; 
+    }
+    
+
+#menu {
+    /* COR DE FUNDO */
+    background-color:#32CD32;
+    /* BORDA DO MENU SUPERIOR E INFERIOR */
+    border-top: 10px solid #228B22;
+    border-bottom: 10px solid #228B22;
+
+    /* ESPAÇAMENTO DO CONTEÚDO DO MENU */
+    padding: 10px;
+    /* MARGEM INFERIOR */
+    margin-bottom: 20px;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* ALINHAR OS ELEMENTOS NO CENTRO */
+    text-align: center;
+}
+
+#menu a{
+    /* COR DOS LINKS */
+    color: white;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* REMOVER SUBLINHADO */
+    text-decoration: none;
+    /* ESPAÇAMENTO ENTRE OS LINKS  */
+    padding: 10px;
+    /* FONTE */
+    font-family: sans-serif;
+}
+
+.principal {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */ 
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 50px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+}
+
+/* CAIXA DO CARD COM IMAGEM E H2 */
+.item {
+    /* COR DE FUNDO */
+    background-color: #00FF7F;
+    /* ALINHAR NO CENTRO */
+    text-align: center; 
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* FONTE */
+    font-family: sans-serif;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid #006400;
+    /* CONTORNO PARA BORDA */
+    border-radius: 1%;
+}
+
+.rodape {
+    /* COR DE FUNDO */
+    background-color: #006400;
+    /* ALTURA */
+    height: 100px;
+    /* COR  */
+    color: white;
+    /* FONTE */
+    font-family: sans-serif;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: flex;
+    /* JUSTIFICAR NA HORIZONTAL */    
+    justify-content: center;
+    /* JUSTIFICAR NA VERTICAL */ 
+    align-items: center;
+    /* ALINHAR NO CENTRO */
+    text-align: center;
+}
