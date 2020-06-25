@@ -19,7 +19,7 @@ body {
      }
 
 /* FONTE DO LOGOTIPO */
-h1{
+h2{
     color: green;
     text-align: center;
     text-decoration: none;
@@ -74,6 +74,7 @@ h1{
     margin: 20px 60px;
 }
 
+
 /* CAIXA DO CARD COM IMAGEM E H2 */
 .item {
     /* COR DE FUNDO */
@@ -86,9 +87,13 @@ h1{
     font-family: sans-serif;
     /* BORDA SUPERIOR */
     border-top: 5px solid #006400;
-    /* CONTORNO PARA BORDA */
-    border-radius: 1%;
+    border-bottom: 5px solid #006400;
+    border-left: 5px solid #006400;
+    border-right: 5px solid #006400;
+    
 }
+
+
 
 .rodape {
     /* COR DE FUNDO */
